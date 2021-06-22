@@ -4,6 +4,7 @@ import Router from "./Routes";
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./Styles/GlobalStyle";
 import theme from "./Styles/Theme";
+import "antd/dist/antd.css";
 
 ReactDOM.render(
   <>
