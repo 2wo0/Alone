@@ -17,10 +17,7 @@ export default function Header() {
           <Login>LOGIN</Login>
           <Join>JOIN</Join>
           <MyPage>MYPAGE</MyPage>
-          <CartWrap>
-            <Cart>CART</Cart>
-            <Count>0</Count>
-          </CartWrap>
+          <Cart>CART</Cart>
         </UserTab>
       </HeaderTab>
       <Category></Category>
@@ -67,24 +64,7 @@ const Join = styled.div``;
 
 const MyPage = styled.div``;
 
-const CartWrap = styled.div`
-  position: relative;
-`;
-
 const Cart = styled.div`
   display: inline-block;
   width: 40px;
-`;
-
-const Count = styled.div`
-  display: inline-block;
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  top: -3px;
-  left: 41px;
-  text-align: center;
-  line-height: 18px;
-  border: 1px solid black;
-  border-radius: 50%;
 `;
