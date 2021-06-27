@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { MenuOutlined, SearchOutlined } from "@ant-design/icons";
-import Category from "./Category";
+import Category from "../Header/Category";
 import logo from "../../Image/logo.jpg";
 
 export default function Header() {
@@ -20,7 +20,7 @@ export default function Header() {
           <Cart>CART</Cart>
         </UserTab>
       </HeaderTab>
-      <Category></Category>
+      <Category />
     </HeaderWrap>
   );
 }
