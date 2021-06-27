@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./Pages/Components/Header";
+import Header from "./Pages/Header/Header";
 
 export default function Routes() {
   return (
