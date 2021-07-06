@@ -31,5 +31,4 @@ const CategoryWrap = styled.div`
   width: 1100px;
   height: 50px;
   margin: 0 auto;
-  border: 1px solid black;
 `;

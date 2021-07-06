@@ -8,8 +8,8 @@ import "antd/dist/antd.css";
 
 ReactDOM.render(
   <>
-    <GlobalStyle />
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <Router />
     </ThemeProvider>
   </>,
