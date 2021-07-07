@@ -36,7 +36,6 @@ const HeaderTab = styled.div`
   ${(props) => props.theme.flexSpaceBetweenCenter};
   width: 1425px;
   height: 59px;
-  border: 1px solid black;
 `;
 
 const MenuWrap = styled.div`
