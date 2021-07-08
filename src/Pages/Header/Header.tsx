@@ -3,25 +3,29 @@ import styled from "styled-components";
 import { MenuOutlined, SearchOutlined } from "@ant-design/icons";
 import Category from "../Header/Category";
 import logo from "../../Image/logo.jpg";
+import Banner from "../Banner/Banner";
 
 export default function Header() {
   return (
-    <HeaderWrap>
-      <HeaderTab>
-        <MenuWrap>
-          <MenuOutlined style={{ fontSize: "20px", color: "#08c" }} />
-        </MenuWrap>
-        <Logo src={logo} alt="logo" />
-        <UserTab>
-          <SearchOutlined style={{ fontSize: "25px", color: "#08c" }} />
-          <Login>LOGIN</Login>
-          <Join>JOIN</Join>
-          <MyPage>MYPAGE</MyPage>
-          <Cart>CART</Cart>
-        </UserTab>
-      </HeaderTab>
-      <Category />
-    </HeaderWrap>
+    <>
+      <HeaderWrap>
+        <HeaderTab>
+          <MenuWrap>
+            <MenuOutlined style={{ fontSize: "20px", color: "#08c" }} />
+          </MenuWrap>
+          <Logo src={logo} alt="logo" />
+          <UserTab>
+            <SearchOutlined style={{ fontSize: "25px", color: "#08c" }} />
+            <Login>LOGIN</Login>
+            <Join>JOIN</Join>
+            <MyPage>MYPAGE</MyPage>
+            <Cart>CART</Cart>
+          </UserTab>
+        </HeaderTab>
+        <Category />
+      </HeaderWrap>
+      <Banner />
+    </>
   );
 }
 
