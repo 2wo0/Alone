@@ -8,6 +8,5 @@ export default function Banner() {
 
 const BannerWrap = styled.img`
   width: 1425px;
-  height: 900px;
   object-fit: cover;
 `;
